@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>About Us</title>
+        <link type="text/css" rel="stylesheet"
+        href="css/my-first-stylesheet.css"/>
+    </head>
+    <body>
+        <header>
+        	<h1>OTAKUFEST</h1>
+        <header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="updates.html">Updates</a></li>
+            <li><a href="otakufest-through-the-years.html">Otakufest History</a></li>
+            <li><a href="buy-tickets.html">Buy Tickets</a></li>
+            <li><a href="buy-merch.html">Buy Merch</a></li>
+            <li class="selected">About Us</a></li>
+        </ul>
+    </nav>
+    <article>
+        <h1>About Us</h1>
+        <p><img id="display-image" class="art-media" onclick="swapImage()" src="images/of-team/OF-Finance.jpg" width="680" height= "440" alt="Picture of Finance Team"></p>
+        <script>
+        function swapImage(){
+        var imageDisplayed = document.getElementById('display-image');
+        if(imageDisplayed.src.match("images/of-team/OF-Finance.jpg")){
+            imageDisplayed.src = "images/of-team/of-marketing.jpg" ;
+        }
+        else if(imageDisplayed.src.match("images/of-team/of-marketing.jpg")){
+            imageDisplayed.src = "images/of-team/of-log.jpg";
+        }
+        else if(imageDisplayed.src.match("images/of-team/of-log.jpg")){
+            imageDisplayed.src = "images/of-team/of-prod.jpg";
+        }
+        else if(imageDisplayed.src.match("images/of-team/of-prod.jpg")){
+            imageDisplayed.src = "images/of-team/of-talents.jpg";
+        }
+        else if(imageDisplayed.src.match("images/of-team/of-talents.jpg")){
+            imageDisplayed.src = "images/of-team/OF-Finance.jpg";
+        }
+        }
+        </script>
+        <h2> We are the Otakufest Team</h2>
+        <p> The UP Otakufest is the largest annual hobbies convention in Cebu, currently based in the University of the Philippines Cebu. </p>
+    <article>
+    </body>
+</html>
