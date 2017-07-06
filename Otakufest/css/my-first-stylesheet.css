@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	border:thick solid #900;
+	background-color:#000;
+	box-sizing: border-box;
+}
+nav ul{
+	list-style-type:none;
+	background-color:#000;
+	border:4px solid #900;
+	border-radius:5px;
+	font-family:Baskerville, "Palatino Linotype";
+	font-weight:bold;
+	padding:12px;
+}
+nav ul li.selected{
+	color:#999;
+}
+nav li a:hover{
+	text-decoration:underline;
+}
+nav ul li{
+	display:inline;
+	border-right:2px solid #900;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+nav ul li:last-child{
+	border-right:none;
+}
+nav ul li a{
+	text-decoration:none;
+	color: #FFF;
+}
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:1024px;
+	min-width:256px;
+	padding-bottom:8px;
+	padding-bottom:24px;
+	padding-left:24px;
+	padding-bottom:24px;
+}
+article{
+	
+	clear:both;
+	background-color: #111;
+	width: auto;
+}
+ul{
+	color: #FFF;
+}
+form{
+	color: #FFF;
+}
+p{
+	text-align:justify;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom:20px;
+	line-height: 160%;
+	color: #FFF;
+}
+h1{
+	color: #C00;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: 50px;
+	text-align:center;
+}
+h2{
+	padding-left:30px;
+	padding-top: 20px;
+	color: #FFF;
+}
+#recap{
+	padding-top:0px;
+}
+h3{
+	padding: 20px;
+	color: #FFF;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+table{
+	font-size:15px;
+	width:auto;
+	text-align:center;
+	color:#FFF;
+	border-collapse:collapse;
+	border:2px solid #900;
+}
+th,td{
+	border: 1px solid #900;
+	padding: 10px;
+}
+th{
+	background-color: #933;
+}
+img.cover{
+	width: 100%;
+}
+.art-media{
+	display:block;
+	margin: auto;
+	padding: 20px;
+}
+ul#ofyear-enum{
+	padding-left: 200px;
+}
+div#buyform{
+	float:left;
+	margin-right:200px;
+	margin-left:200px;
+}
+div#pricelist{
+	float:right;
+	margin-right:200px;
+	margin-left:200px;
+}
+div p{
+	padding:0;
+}
+article hr {
+	display: block;
+	 clear: left; 
+	 margin: 5em 0;
+	 visibility: hidden
+}
+#button{
+	margin-top: 20px;
+	height: 30px;
+	width: 100px;	
+}
